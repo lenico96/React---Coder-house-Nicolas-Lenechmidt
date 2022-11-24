@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+.container_header{
+    max-width: 800px;
+    height: 500%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    color: blue;
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.menu nav ul{
+    display: flex; 
+    padding: 20px;
+}
+
+.menu nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: opacity 300ms;
+    padding: 10px;    
+}
+
+.menu nav ul li a:hover{
+    padding: 10px;
+    background: #203281;
+    color: #DCDAE0;
+    border-radius: 10px; 
+}
