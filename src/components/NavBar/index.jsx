@@ -10,7 +10,7 @@ export const NavBar = () => {
             <div className='menu'>
                 <nav>
                     <ul>
-                        <li><a href=""><CartWidget/></a>0</li>
+                        <li><a href=""><CartWidget/> 0</a></li>
                         <li><a href="">Nosotros</a></li>
                         <li><a href="">Tienda</a></li>
                         <li><a href="">ver mas</a></li>

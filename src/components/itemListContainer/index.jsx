@@ -1,12 +1,14 @@
 import React from "react";
-import Title from  '../title'
-import ItemCount from "../ItemCount/itemCount";
+import Title from  '../tittle'
+
+
 
 export const ItemListContainer = () => {
     return (
         <>
-        <Title/>
-        <ItemCount/>
+        <Title nombre="Nicolas" edad="25"/>
+        
+        
         </>
         
     )
