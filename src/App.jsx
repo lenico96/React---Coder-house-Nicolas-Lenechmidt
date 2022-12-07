@@ -1,14 +1,16 @@
 import './components/NavBar/navbar.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/itemListContainer';
-import '../src/components/tittle/tittle.css';
+import ItemDetailContainer from './components/ItemDetailContainer';
+
+
+
 
 
 function App() {
   return (
     <>
     <NavBar/>
-    <ItemListContainer/>
+    <ItemDetailContainer/>
     
     </>
     

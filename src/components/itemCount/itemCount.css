@@ -1,0 +1,9 @@
+.count{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    background-color: rgb(186, 71, 175);
+    padding: 10px;
+    
+    
+}
