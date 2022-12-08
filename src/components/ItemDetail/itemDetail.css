@@ -1,20 +1,19 @@
-.container{
-    width: 98%;
-    margin: auto;
-}
-
-.detail{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.contenedor_detalles{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
 }
 
-.detail_image{
-    width: 100%;
+
+.imagenes_detalles{
+    display: flex;
+    background-color: aqua;
+
 }
 
-.content{
-    width: 100%;
+.titulo_detalles{
+    background-color:brown;
+
 }
