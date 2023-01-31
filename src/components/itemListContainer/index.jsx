@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-import Title from  '../tittle'
+
 import ItemList from '../ItemList';
 import { useParams } from 'react-router-dom';
 import './itemlist.css'
@@ -11,6 +11,7 @@ const productos = [
         image: "https://jumboargentina.vtexassets.com/arquivos/ids/697095-800-auto?v=637858930495270000&width=800&height=auto&aspect=true",
         tittle: "Teclado RedDragon",
         category: 'teclados',
+        price: 2000,
         
     },
     {
@@ -18,6 +19,7 @@ const productos = [
         image: "https://mundofixar.vtexassets.com/arquivos/ids/565064-800-auto?v=638060364820170000&width=800&height=auto&aspect=true",
         tittle: "Teclado Razer",
         category: 'teclados',
+        price: 3000,
         
     },
     {
@@ -25,6 +27,7 @@ const productos = [
         image: "https://http2.mlstatic.com/D_NQ_NP_652011-MLA43691183894_102020-O.webp",
         tittle: "Auricular RedDragon",
         category: 'auriculares',
+        price: 5000,
         
     },
     {
@@ -32,6 +35,7 @@ const productos = [
         image: "https://http2.mlstatic.com/D_NQ_NP_636263-MLA51631372512_092022-O.webp",
         tittle: "Auricular Kotion",
         category: 'auriculares',
+        price: 5500,
         
     },
 ];

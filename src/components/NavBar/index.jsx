@@ -11,7 +11,7 @@ export const NavBar = () => {
             <div className='menu'>
                 <nav>
                     <ul>
-                        <li><NavLink to='/cart'><CartWidget/> 0</NavLink></li>
+                        <li><NavLink to='/cart'><CartWidget/> </NavLink></li>
                         <li><NavLink to='/categorias/teclados'>Teclados</NavLink></li>
                         <li><NavLink to='/categorias/auriculares'>Auriculares</NavLink></li>
                         <li><NavLink >ver mas</NavLink></li>

@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import './item.css'
 import { Link } from 'react-router-dom';
 
 
+
 export const Item = ({info}) => {
+    
     return (
         <div className="productos">
             <p>{info.tittle}</p>
